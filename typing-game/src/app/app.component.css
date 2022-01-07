@@ -1,0 +1,42 @@
+.main {
+  height: 80vh;
+}
+
+.wrapper {
+  flex-direction: column;
+}
+
+input {
+  width: 100%;
+  border: 1px solid rgb(55, 117, 4);
+  padding: 8px;
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid rgb(168, 1, 132);
+}
+
+.wrong {
+  color: red;
+
+}
+
+.right {
+  color: green;
+}
+
+.bgRight {
+  background-color: greenyellow;
+  color: #000;
+}
+
+.bgWrong {
+  background-color: rgb(223, 3, 76);
+  color: #fff;
+}
+
+.bgNormal {
+  background-color: transparent;
+}
